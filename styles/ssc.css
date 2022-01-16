@@ -1,0 +1,59 @@
+body
+{
+	background-image: url(https://sun9-50.userapi.com/impg/xFNDeg8n7xNcYcyL6IU7x5G1fNbAt3PejtBL_Q/HTS7VBfsVvA.jpg?size=343x466&quality=95&sign=84f5fed41356689951131aa6a5deb912&type=album);
+	background-size: contain;
+}
+
+.header
+{
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+.headertitt
+{
+	color: white;
+	text-align: center;
+	font-family: Luminari, fantasy;
+	font-size: 90px;
+	text-shadow: 1px 1px 2px black;
+	position: absolute;
+	top: 100px;
+	left: 25%;
+}
+
+.chloeph
+{
+	float: left;
+	margin-left: 5px;
+	width: 22%;
+	margin-top: 10px;
+}
+
+.chloeabs
+{
+	float: right;
+	margin-right: 15px;
+	width: 20%;
+}
+
+.chloeabss
+{
+	float: left;
+	margin-left: 15px;
+	width: 20%;
+}
+
+.info
+{
+	color: white;
+	text-indent: 20px;
+	font-weight: bold; 
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	backdrop-filter: blur(20px);
+}

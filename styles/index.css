@@ -1,0 +1,108 @@
+.header
+{
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+
+.background-image {
+
+	width: 100%;
+	height: 350px;
+	background-size: contain;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(https://sun1-90.userapi.com/impg/z0e5Vz1g20XNmuUwQxjmEXkbXjrP5fDExJsS_Q/tLa6QZnLcrc.jpg?size=1280x390&quality=95&sign=aa22bee8b8a4c01c0d4f8e3fa67bde33&type=album);
+	position: relative;
+  filter: blur(1px);
+} 
+
+.headertit
+{
+	color: white;
+	text-align: center;
+	font-family: Luminari, fantasy;
+	font-size: 100px;
+	text-shadow: 1px 1px 2px black;
+	position: absolute;
+	top: 100px;
+	left:35%;
+	animation-timing-function: linear;
+	backdrop-filter: blur(20px);
+}
+
+body
+{
+	background-image: url(https://sun9-50.userapi.com/impg/xFNDeg8n7xNcYcyL6IU7x5G1fNbAt3PejtBL_Q/HTS7VBfsVvA.jpg?size=343x466&quality=95&sign=84f5fed41356689951131aa6a5deb912&type=album);
+	background-size: contain;
+}
+
+ .headertit::before{
+    animation: headertit 1.5s;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    height: 100%; 
+	backdrop-filter: blur(20px);
+	 filter: blur(15px);
+   }
+   @keyframes headertit {
+    from { width: 100%; }
+    to { width: 0%; }
+   }
+   
+.info
+{
+	color: white;
+	text-indent: 20px;
+	font-weight: bold; 
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	backdrop-filter: blur(20px);
+}
+
+.chloeph
+{
+	float: left;
+	margin-left: 5px;
+	width: 22%;
+	margin-top: 10px;
+}
+
+.eng
+{
+	color: white;
+	text-align: center;
+	font-family: Luminari, fantasy;
+	font-size: 50px;
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+	position: absolute;
+	top: 90px;
+	right: 0; 
+}
+
+.chloegif
+{
+	float: right;
+	margin-right: 15px;
+	width: 20%;
+}
+
+.ssc
+{
+	color: blue;
+	text-align: left;
+	font-family: Luminari, fantasy;
+	font-size: 40px;
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+	position: absolute;
+	top: 90px;
+	left: 0; 
+}
